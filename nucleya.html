@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MusicBuzz | Nucleya </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+        <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/custom.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/title.png">
+        <script src="assets/js/singer.js"></script>
+        <script src="assets/js/nucleyasongs.js"></script>
+        <style>
+        #mid{
+        eight : 360px;
+        }
+        #mid  p{ font-size: 29px;
+            margin-left :10%;             
+            }
+          .qwert {
+          height: 250px;}  
+          p{
+          font-size: 21px;
+          }
+        
+        </style>
+</head>
+<body>
+    <!-- Header -->
+     <div id="head" class="container-fluid">
+
+
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#2D3246;">
+                    <a class="navbar-brand" href="index.html"> <span>Music</span><span class="q2">Buzz</span>  </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                           <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  Browse
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Artists</a>
+                                  <a class="dropdown-item" href="#">Albums</a>
+                                  <a class="dropdown-item" href="#">Playlist</a>
+                                  <a class="dropdown-item" href="#">New Releases</a>
+                    
+                       
+                      
+                        
+                      </ul>
+                     
+                     
+                         <ul class="navbar-nav right">
+                               <li class="nav-item">
+                                 <a id="Login" class="nav-link" href="login.html
+                                 ">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light ">
+    Login <i class="fas fa-sign-in-alt"></i> 
+  </button>
+          </a>
+                </li>
+                               <li class="nav-item">
+                                    <a class="nav-link" href="#"> <!-- Button trigger modal -->
+                                      <button type="button" class="btn btn-outline-light " >
+                                          SignUp <i class="fas fa-user-plus"></i> 
+                                        </button>
+                                        
+                                       
+                                      </a>
+                                  </li>
+                          </ul>                          
+                    </div>
+                    
+                  </nav>
+     </div> 
+   
+       <!-- Content -->
+    <div id=content class="container-fluid">
+  <div class="row">
+       <div class=" marg col-lg-4"> 
+            
+         <img class="border border-dark rounded d-block w-100" src="https://images.sk-static.com/images/media/profile_images/artists/6049624/huge_avatar" alt="Nucleya">
+   </div>
+   <div class=" marg col-lg-8"> 
+                <h1 class="center"> Nucleya </h1>
+                <br>
+                <p>Udyan Sagar, better known by his stage name Nucleya, is an Indian electronic music producer. His unique usage of Indian street sounds has made him a countrywide phenomenon, and he’s managed to bridge the gap between indie and mainstream in a way that few artists have. Nucleya’s kitsch, bass-heavy sound has been lapped up by the masses and he continues to release new music, stretching the limits of his genre.
+
+Udyan’s rise to the top was preceded by decades of struggle, and before he became Nucleya, he was well recognised for having founded Bandish Projekt with fellow musician Mayur Narvekar, and then-manager Mehir Nath Chopra. Now as Nucleya, he has countless milestones under his belt, along with a some much-loved albums and the dedicated fan-base to sell-out a stadium</p>
+         <h2 class="text-center">Nucleya Hits <hr></h2>
+          <ul id="songs">
+
+          </ul>
+</div>
+    </div>
+   
+   </div>
+   <!--Audio Player-->
+ <div id="audioPlayer">
+  <audio src="" id="audio"></audio>
+  <span id="disp"></span>
+  <div class="row">
+      <div class="col-lg-3">
+          <button class="btn" id="playPause">
+              <i class="fas fa-play"></i>
+          </button>
+          <button class="btn" id="stopSong">
+              <i class="fas fa-stop"></i>
+          </button>
+          <button class="btn" id="previousSong">
+              <i class="fas fa-angle-double-left"></i>
+          </button>
+          <button class="btn" id="nextSong">
+              <i class="fas fa-angle-double-right"></i>
+          </button>
+      </div>
+      <div class="col-lg-9">
+          <input type="range" value="0" id="slider">
+      </div>
+  </div>
+ </div>
+   <!-- Footer -->
+    <div id="footer">
+            <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+                <div class="container">
+                  <div class="row row-30">
+                    <div class="col-md-4 col-xl-5">
+                      <div > <br>
+                        <p>MusicBuzz is an Online Music Platform Where you can Listen Music Anytime.</p>
+                        <!-- Rights-->
+                        <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>MusicBuzz</span><span>. </span><span>All Rights Reserved.</span></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <h5>Contact:</h5>
+                      <br>
+                      
+                      <dl class="contact-list">
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:#">Connect@MusicBuzz.com</a></dd>
+                      </dl>
+                      <dl class="contact-list">
+                        <dt>Founder
+                        </dt>
+                        <dd><a href="#">Rishabh Singh <i class="fab fa-linkedin"></i></a> 
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class="col-md-4 col-xl-3">
+                      <h5>Links</h5>
+                      <br>
+                      <ul class="nav-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Music Categories</a></li>
+                        <li><a href="#">Artists</a></li>
+                        <li><a href="#">Latest Hits</a></li>
+                        <li><a href="#">Suprise Me!</a></li>
+                        <li><a href="#">More...</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+               
+              </footer>
+    </div>
+          
+                                                            
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+            
+</body>
+</html>

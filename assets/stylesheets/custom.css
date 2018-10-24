@@ -1,0 +1,355 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Boogaloo', cursive;
+    background-color: #D5D5D5;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFLW7zAgXeguB5w3MGn4BepaO1Fkypus-kUttsmezRvSd7N2O"); */
+
+ 
+}
+.errormsg{
+	font-size: 32px;
+	margin-top: 100px;
+	color: red;
+	text-alignment: center;
+	
+}
+.marg{  
+    margin-top : 99px; 
+    margin-bottom: 10px;
+}
+
+h1,h2,h3,h4,h5{
+    margin-bottom: -10px;
+}
+
+ #head span{
+    color: #D9534F;
+    font-family: 'Knewave', cursive;
+    font-size: 33px;
+    
+}
+#head .q2{
+    color:#9999ff;
+    
+
+}
+hr{
+    border: 0;
+    height: 1px;
+    margin-top: 7px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* head */
+#head{
+    margin-top: 0x;
+    padding-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dropdown-menu{
+    background-color:#222222;
+}
+.dropdown-item{
+    text-align: center;
+    color:white;
+    
+}
+/* banner */
+#banner{
+    margin-top: 80px;
+    width: 100%;
+    
+}
+
+#banner .carousel-item {
+    height:330px;
+    
+  }
+  
+#banner .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+      transform: translateY(-50px);
+  }
+  
+/* Songs-List */
+#songs {
+    margin-top: 20px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#songs li {
+    text-align: center;
+    margin: 0px 10px 30px;
+    width: 22%;
+    position: relative;
+
+}
+#songs li .cover{
+    width: 100%;
+    min-height: 190px;
+    max-height: 150px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;   
+}
+#songs li:hover .cover{
+    transform: scale(1.11);
+    
+}
+#songs li span {
+    cursor: pointer;
+    display: block;
+    margin: 10px 0px;
+}
+#songs li .playIcon,#playList li .playIcon {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    background-image: url("https://blog.autocase.com/wp-content/uploads/2017/08/video-play-xxl.png");
+    background-size: 100% 100%;
+}
+@media(max-width: 1200px) {
+    #songs li  {
+        width: 30%;
+    }
+}
+@media(max-width: 1200px) {
+    #songs li  {
+        margin: 0px 8px 30px;
+    }
+}
+@media(max-width: 576px) {
+    #songs li  {
+        width: 45%;
+        margin: 0px 5px 30px;
+        font-size: 13px;
+    }
+}
+#playList li img{
+    width: 20%;
+}
+#playList li .playIcon {
+    left: 30px;
+}
+#playList li span {
+    cursor: pointer;
+}
+#playList li .deleteBtn {
+    font-size: 15px;
+    position: absolute;
+    right: 5px;
+}
+/* Weekly List */
+.week{
+    margin-top: 80px;
+    color: black;
+
+}
+#week-list  ul {
+    list-style: none;
+    margin-top:-10px;
+
+}
+#week-list ul li{
+    margin-bottom: 10px;
+    width: 80%;
+    transition: 0.5s;
+    border-bottom: #2D3246 solid 2px;
+    padding-left: 10%;
+    border-left: #2D3246 solid 2px;
+    border-radius: 30%;
+    cursor:pointer;
+}
+#week-list ul li:hover{
+    transform: scale(1.1) translateX(10px);
+    background-color: #aaaaaa;
+
+}
+
+
+
+#week-list ul li a{
+    text-decoration: none;
+    color: #222222;
+
+}
+#week-list ul li a span{
+    font-size: 14px;
+    color:gray;
+    margin-left: 17px;
+}
+/* Artists  Bar */
+#artist ul { 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#artist ul li{
+    transition: 0.5s;
+}
+
+#artist ul li a{
+    text-decoration: none;
+    color: black;
+  
+     
+}
+#artist ul li:hover img{
+    transform: scale(1.05);
+}
+#artist ul li img{
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 140px;
+    max-height: 120px;
+    margin-right: 10px;
+}
+#artist ul li a span{
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+   text-align: center;
+
+}
+@media(max-width: 960px)
+{
+    #artist{
+        display: none;
+    }
+}
+
+    
+
+/* Social_right Side */
+ #social a img{
+     height: 60px;
+     margin: 2px;
+     margin-left: 20px;
+ }
+.pl{                        /* to make play button size equal */
+     width: 205px;
+ }
+ .week1{
+     margin-top: 20px;
+ }
+#social a img:hover{
+   
+    transform: scale(1.1);
+}
+  /* Audio Player */
+  
+  #audio {
+    display: none;
+    position: absolute;
+}
+#audioPlayer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 10;
+    left: 0px;
+    background-color: rgba(34,34,34,0.7);
+    padding: 10px 80px;
+    /* display: none; */
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 7.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #2D3246;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -10px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #2D3246;
+  }
+ 
+
+  /* Footer */
+  
+  #footer .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+#footer .nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer .nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+#footer ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+#footer .social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#footer .nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+

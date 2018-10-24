@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MusicBuzz | Latest Music </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/title.png">
+    <script src="assets/js/custom.js"></script>
+   <script src="assets/js/songs.js"></script>
+</head>  
+<body>
+  <!--Header-->
+    <div id="head" class="container-fluid">
+
+
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#2D3246;">
+                    <a class="navbar-brand" href="#"> <span>Music</span><span class="q2">Buzz</span>  </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                           <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  Browse
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Artists</a>
+                                  <a class="dropdown-item" href="#">Albums</a>
+                                  <a class="dropdown-item" href="#">Playlist</a>
+                                  <a class="dropdown-item" href="#">New Releases</a>
+                    
+                       
+                        
+                        
+                      </ul>
+                     
+                     
+                         <ul class="navbar-nav right">
+                               <li class="nav-item">
+                                 <a id="Login" class="nav-link" href="login.html">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light ">
+    Login <i class="fas fa-sign-in-alt"></i> 
+  </button>
+          </a>
+                </li>
+                               <li class="nav-item">
+                                    <a class="nav-link" href="usersignup.jsp"> <!-- Button trigger modal -->
+                                      <button type="button" class="btn btn-outline-light " >
+                                          SignUp <i class="fas fa-user-plus"></i> 
+                                        </button>
+                                        
+                                       
+                                      </a>
+                                  </li>
+                          </ul>                          
+                    </div>
+                    
+                  </nav>
+    </div>
+    
+  <!--Content-->
+<div id=content class="container-fluid">
+  <div class="row">
+       <div class="col-lg-9">
+            <div id="banner">         
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="1500" >
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://pixel.nymag.com/imgs/daily/vulture/2017/12/best-of-2017/11-yic-pop-essay.w1200.h630.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://www.illmuzik.com/attachments/34324-jpg.4196/" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-v4kddqhts3b2f0q7msfbeg7cb1-20161107220022.Medi.jpeg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="http://4.bp.blogspot.com/-7yjZaPXT6GI/Vc0a3QEPgnI/AAAAAAAADAg/LU-YYTXdOBY/w1200-h630-p-k-no-nu/Maa-Tujhe-Salaam-Chords-Tabs-Vande-Mataram-A-R-Rahman.jpg" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          <div id="artist">
+                    <h2 class="text-center">Artists<hr></h2>
+                     <ul class="artist">
+                      <li><a href="arijitsingh.html"><img class="rounded-circle"src="assets/images/Artists/Arijit.jpg" alt=""><br> <span>Arijit Singh</span></a></li>
+                      <li><a href="atifaslam.html"><img class="rounded-circle"src="assets/images/Artists/atifAslam.jpg" alt=""><br> <span>Atif Aslam</span></a></li>
+                      <li><a href="coldplay.html"><img class="rounded-circle"src="assets/images/Artists/coldplayblog-580.jpg" alt=""><br> <span>Coldplay</span></a></li>
+                      <li><a href="nucleya.html"><img class="rounded-circle"src="assets/images/Artists/Nucleya.jpg" alt=""><br> <span>Nucleya</span></a></li>
+                     <li><a href="honeysingh.html"><img class="rounded-circle"src="assets/images/Artists/Yo_Yo_Honey_Singh.jpg" alt=""><br> <span>Honey Singh</span></a></li>
+                     </ul>
+                </div>
+          <h2 class="text-center">Latest Hits <hr></h2>
+          <ul id="songs">
+
+          </ul>
+                
+
+      </div>
+                  <div class="col-lg-3">
+                      <h2 class="text-center week text-center ">Weekly Top 10 <hr></h2>
+                        <div id="week-list">
+                           <ul class="list-group">
+                                <li id="t1"><a href="#" >1.  Aaya Na Tu<br> <span class="week-art">Arjun Kanungo</span> </a></li>
+                                <li id="t2"><a href="#">2.  Dilbar <br> <span class="week-art">Satyamev Jayate</span> </a></li>
+                                <li  id="t3"><a href="#">3.  Tareefan<br> <span class="week-art"> Veerey Di Weeding</span> </a></li>
+                                <li  id="t4"><a href="#">4.  Dhadak-Title Track<br> <span class="week-art">Dhadak</span> </a></li>
+                                <li  id="t5"><a href="#">5.  Kar Har Maidaan Fateh<br> <span class="week-art"> Sanju</span> </a></li>
+                                <li  id="t6"><a href="#">6.  Buzz<br> <span class="week-art"> Aastha Gill</span> </a></li>
+                                <li  id="t7"><a href="#">7.  O Saathi<br> <span class="week-art"> Baghi 2</span> </a></li>
+                                <li  id="t8"><a href="#">8.  Bom Diggy<br> <span class="week-art"> Sonu Ke Titu Ki Sweety</span> </a></li>
+                                <li  id="t9"><a href="#">9.  Ishq Di Bajiyan<br> <span class="week-art">Soorma</span> </a></li>
+                                <li id="t10"><a href="#" >10. Dilbaro<br> <span class="week-art"> Raazi</span> </a></li>
+                               
+                           </ul>
+                        </div>
+                        <div id="social">
+                          <h3 class="text-center week1">Download The App Now! <hr></h3>
+                         <a href="#"><img src="assets/images/appstore.png" alt=""></a>
+                         <a href="#"><img class="pl" src="assets/images/playStore.png" alt=""></a>
+                             
+                        </div>
+                  </div>
+
+
+   <!-- row col end --> </div> 
+     
+  
+  </div>
+              
+
+ <!--Audio Player-->
+ <div id="audioPlayer">
+  <audio src="" id="audio"></audio>
+  <span id="disp"></span>
+  <div class="row">
+      <div class="col-lg-3">
+          <button class="btn" id="playPause">
+              <i class="fas fa-play"></i>
+          </button>
+          <button class="btn" id="stopSong">
+              <i class="fas fa-stop"></i>
+          </button>
+          <button class="btn" id="previousSong">
+              <i class="fas fa-angle-double-left"></i>
+          </button>
+          <button class="btn" id="nextSong">
+              <i class="fas fa-angle-double-right"></i>
+          </button>
+      </div>
+      <div class="col-lg-9">
+          <input type="range" value="0" id="slider">
+      </div>
+  </div>
+ </div>
+
+  <!-- Footer -->
+ <div id="footer">
+    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div > <br>
+                <p>MusicBuzz is an Online Music Platform Where you can Listen Music Anytime.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>MusicBuzz</span><span>. </span><span>All Rights Reserved.</span></p>
+                <a  href="adminlogin.html"> Admin Login</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contact:</h5>
+              <br>
+              
+              <dl class="contact-list">
+                <dt>Email:</dt>
+                <dd><a href="mailto:singhrishabh557@gmail.com">Connect@MusicBuzz.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Founder
+                </dt>
+                <dd><a href="#">Rishabh Singh <i class="fab fa-linkedin"></i></a> 
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <br>
+              <ul class="nav-list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Music Categories</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Latest Hits</a></li>
+                <li><a href="#">Suprise Me!</a></li>
+                <li><a href="#">More...</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+      </footer>
+ </div>
+  
+                                                    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
